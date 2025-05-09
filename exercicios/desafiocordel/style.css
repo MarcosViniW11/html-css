@@ -14,7 +14,6 @@ html,body{
 header{
     background-color:rgb(0, 0, 0) ;
     color: white;
-    height: 220px;
 }
 header>h1{
     text-align: center;
@@ -29,6 +28,7 @@ header>p{
     padding-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
+    padding-bottom: 50px;
 }
 header>p>a{
     color: white;
