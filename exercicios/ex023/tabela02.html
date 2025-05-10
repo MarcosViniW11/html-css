@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        thead{
+            background-color: aliceblue;
+        }
+        tbody{
+            background-color: azure;
+        }
+        tfoot{
+            background-color: rgb(181, 231, 233);
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .numero{
+            text-align: right;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 8px;
+            background: rgb(187, 185, 185);
+            border-radius: 10px 10px 0px 0px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--
+        Anatomia das tabelas Grandes
+        table
+            Capition
+            THEAD
+                TR,TD,TH
+            TBODY
+                TR,TD,TH
+            TFOOT
+                TR,TD,TH
+
+            extras(TD-usamos para conteudo expresso na tabela como exemplo para um dado na tabela,enquanto o TH para algo importante como um titulo)
+    -->
+    <table>
+        <caption>Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45 973 194</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 322 691</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="numero">17 219 679</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11 824 665</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 229 915</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="numero">17 219 679</td>
+            </tr>
+            <tr>
+                <td>Pernabuco</td>
+                <td class="numero">9 539 029</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 233 656</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8 664 306</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">8 058 441	</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="numero">7 350 483</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="numero">7 010 960</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="numero">4 281 209	</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4 145 040</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="numero">4 102 129</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="numero">3 836 399</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Norte</td>
+                <td class="numero">3 446 071	</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="numero">3 375 646</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="numero">3 220 104</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="numero">2 982 818	</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="numero"><strong>200.000.000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
