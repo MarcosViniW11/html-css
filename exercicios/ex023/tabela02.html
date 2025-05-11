@@ -11,12 +11,22 @@
         table{
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
         thead{
             background-color: aliceblue;
         }
+        thead>tr>th{
+            position: sticky;
+            top: -1;
+            background-color: aliceblue;
+        }
         tbody{
             background-color: azure;
+        }
+        tbody>tr:nth-child(2n){ 
+            background-color: rgb(207, 207, 207);
+
         }
         tfoot{
             background-color: rgb(181, 231, 233);
