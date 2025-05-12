@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+        th,td{
+            border: 1px solid black;
+            text-align: center;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        .Sexo{
+            background-color: aqua;
+        }
+        .Ncol{
+            background-color: aqua;
+        }
+        .Scol{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="Ncol" span="2">
+            <col class="Scol" span="2">
+            <col class="Icol">
+            <col class="Pcol">
+        </colgroup>
+        <caption>Cadastrando Pessoas</caption>
+        <thead>
+            <tr class="linha">
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profição</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria</td>
+                <td >Feminino</td>
+                <td>25 anos</td>
+                <td>Mecanica</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td >Feminino</td>
+                <td>25 anos</td>
+                <td>Mecanica</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td >Feminino</td>
+                <td>25 anos</td>
+                <td>Mecanica</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td >Feminino</td>
+                <td>25 anos</td>
+                <td>Mecanica</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    
+</body>
+</html>
