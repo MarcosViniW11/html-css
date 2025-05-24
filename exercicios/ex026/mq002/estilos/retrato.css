@@ -1,0 +1,13 @@
+@charset "UTF 8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(/exercicios/ex026/imagens/cev-portrait.jpg);
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}

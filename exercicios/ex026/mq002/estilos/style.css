@@ -1,0 +1,16 @@
+@charset "UTF 8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(31, 56, 197);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    box-shadow: 2px 2px  black;
+}

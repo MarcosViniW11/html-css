@@ -1,0 +1,14 @@
+@charset "UTF 8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(/exercicios/ex026/imagens/cev-landscape.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
