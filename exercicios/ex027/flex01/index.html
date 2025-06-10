@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        body{
+            background-color: lightslategrey;
+            
+        }
+        div.contain{
+            width: 800px;
+            height: 700px;
+            background-color: lightcyan;
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            margin: auto;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            border-radius: 10px;
+            
+        }
+        div.itens{
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 1px dashed black;
+            border-radius: 10px;
+            
+        }
+        div#A{
+            align-self: center;
+        }
+        div#D{
+            align-self: flex-start;
+            
+            
+        }
+        div#E{
+            align-self: flex-end;
+
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="itens" id="A">A</div>
+        <div class="itens">B</div>
+        <div class="itens">C</div>
+        <div class="itens" id="D">D</div>
+        <div class="itens" id="E">E</div>
+        
+    </div>
+</body>
+</html>
