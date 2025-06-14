@@ -1,0 +1,22 @@
+.conteiner{
+    display: grid;
+    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgb(208, 228, 245);
+    border: 1px dashed black;
+}
+.caixa1{
+    grid-area: 1/1/2/5;
+    background-color: rgb(245, 245, 136);
+    border: 1px dashed blue;
+}
+.caixa2{
+    grid-area: 2/1/4/3;
+    background-color: lightcoral;
+    border: 1px dashed green;
+}
+.caixa3{
+    grid-area: 2/3/4/5;
+    background-color: lightsalmon;
+    border: 1px dashed purple;
+}
