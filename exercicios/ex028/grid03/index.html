@@ -7,15 +7,18 @@
     <style>
         div.conteiner{
             border: 2px solid blue;
-            height: 250px;
+            
             display: grid;
-            grid-template-columns: auto auto auto ;
-            grid-template-rows: auto auto auto ;
+            grid-template-rows: repeat(3,120px);
+            grid-template-columns: 1fr 3fr 2fr ;
+            grid-auto-flow: column;
+            grid-auto-rows: 80px;
+            grid-auto-columns: 120px;
             gap: 10px;
             align-items: normal;
             justify-items: normal;
-            justify-content: space-between;
-            align-content: space-around;
+            justify-content: normal;
+            align-content:normal;
 
 
         }
@@ -36,6 +39,9 @@
         <div class="itens">E</div>
         <div class="itens">F</div>
         <div class="itens">G</div>
+        <div class="itens">H</div>
+        <div class="itens">I</div>
+        <div class="itens">J</div>
 
     </div>
 
